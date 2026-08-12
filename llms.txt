@@ -17,4 +17,4 @@ Compare any two objects or arrays and get a precise, typed list of changes. Supp
 npm install object-diff-ts
 ```
 
-Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai
+Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai
