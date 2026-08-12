@@ -1,4 +1,5 @@
 # object-diff-ts
+![CI](https://github.com/FerrowAI/object-diff-ts/actions/workflows/ci.yml/badge.svg)
 
 Typed deep object diffing with array identity support and change reconstruction.
 
