@@ -1,0 +1,20 @@
+# object-diff-ts
+
+> Typed deep object diffing with array identity support and change reconstruction.
+
+Compare any two objects or arrays and get a precise, typed list of changes. Supports nested structures, array identity (keyBy), and bi-directional reconstruction—apply changes forward or reverse them for undo.
+
+## API
+
+- `diff(a, b, opts?)` → Change[]
+- `apply(a, changes, opts?)` → unknown
+- `reverse(changes)` → Change[]
+- `interface Change { path: string; type: 'added' | 'removed' | 'changed'; before?: unknown; after?: unknown; }`
+
+## Install
+
+```bash
+npm install object-diff-ts
+```
+
+Part of the Ferrow open-source toolkit: https://github.com/Ruzylo-cloud/ferrow-toolkit — sponsored by https://ferrow.ai

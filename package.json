@@ -1,0 +1,20 @@
+{
+  "name": "object-diff-ts",
+  "version": "1.0.0",
+  "description": "Typed deep object diffing with array identity support and change reconstruction",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["typescript", "zero-dependencies", "diff", "object-comparison", "deep-diff", "change-tracking"],
+  "author": "Ruzylo-cloud",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
