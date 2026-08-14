@@ -25,7 +25,7 @@ interface Change {
 ## Install
 
 ```bash
-npm install object-diff-ts
+npm install @ferrow/object-diff-ts
 ```
 
 ## Quick Start

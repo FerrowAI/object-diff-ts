@@ -14,7 +14,7 @@ Compare any two objects or arrays and get a precise, typed list of changes. Supp
 ## Install
 
 ```bash
-npm install object-diff-ts
+npm install @ferrow/object-diff-ts
 ```
 
 Part of the Ferrow open-source toolkit: https://github.com/FerrowAI/ferrow-toolkit — sponsored by https://ferrow.ai
